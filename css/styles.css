@@ -92,12 +92,13 @@ body {
   color: var(--primary-white-color);
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
 
 .button-index {
+  font-family: var(--primary-font);
   background-color: var(--button-color);
   color: #ffffff;
   font-size: 16px;
@@ -105,8 +106,12 @@ body {
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: left;
+  cursor: pointer;
 }
 .button-index:hover {
+  background-color: var(--brand-color);
+}
+.button-index:focus {
   background-color: var(--brand-color);
 }
 h3 {
@@ -116,12 +121,14 @@ h3 {
   letter-spacing: 0.02em;
   text-align: left;
 }
-h2 {
+.caption {
+  color: var(--footer-color);
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 p {
   font-size: 16px;
@@ -168,9 +175,9 @@ p {
   text-align: left;
   text-transform: uppercase;
 }
-.footer {
+.footer-text {
   color: var(--classic-background-color);
 }
-footer {
+.footer {
   background-color: var(--footer-color);
 }
