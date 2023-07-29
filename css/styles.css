@@ -1,3 +1,13 @@
+:root {
+  --brand-color: #404bbf;
+  --primary-white-color: #ffffff;
+  --body-color: #434455;
+  --classic-background-color: #f4f4fd;
+  --footer-color: #2e2f42;
+  --button-color: #4d5ae5;
+  --primary-font: "Roboto", sans-serif;
+    --title-font: "Raleway", sans-serif;
+}
 a {
   list-style-type: none;
   text-decoration: none;
@@ -7,33 +17,35 @@ ul {
   text-decoration: none;
 }
 body {
-  color: #434455;
-  background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  color: var(--body-color);
+  background-color: var(--primary-white-color);
+  font-family: var(--primary-font);
 }
 /* HEADER */
 
 .title {
-  font-family: "Raleway", sans-serif;
-  color: #2e2f42;
+  font-family: var(--title-font);
+  color: var(--footer-color);
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
   letter-spacing: 0.03em;
   text-align: left;
+  line-height: 1.17;
+  text-transform: uppercase;
 }
 
-.title-w {
-  color: #4d5ae5;
+.title-s {
+  color: var(--button-color);
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .link {
-  color: #2e2f42;
+  color: var(--footer-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -41,15 +53,15 @@ body {
   text-align: left;
 }
 .link:hover {
-  color: #404bbf;
+  color: var(--brand-color);
   text-decoration: underline;
 }
 .link:active {
-    color: #404bbf;
+    color: var(--brand-color);
     text-decoration: underline;
   }
 .contacts {
-  color: #434455;
+  color: var(--body-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -57,7 +69,7 @@ body {
   text-align: left;
 }
 .contacts-num {
-    color: #434455;
+    color: var(--body-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -65,18 +77,18 @@ body {
   text-align: left;
 }
 .contacts:hover {
-  color: #404bbf;
+  color: var(--brand-color);
 }
 .contacts:active {
-    color: #404bbf;
+    color: var(--brand-color);
   }
 /* MAIN */
 
 .section-button {
   background-color: #2e2f42;
 }
-h1 {
-  color: #ffffff;
+.heading {
+  color: var(--primary-white-color);
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
@@ -85,7 +97,7 @@ h1 {
 }
 
 .button-index {
-  background-color: #4d5ae5;
+  background-color: var(--button-color);
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
@@ -94,7 +106,7 @@ h1 {
   text-align: left;
 }
 .button-index:hover {
-  background-color: #404bbf;
+  background-color: var(--brand-color);
 }
 h3 {
   font-size: 20px;
@@ -118,10 +130,10 @@ p {
   text-align: left;
 }
 .our-team {
-  background-color: #f4f4fd;
+  background-color: var(--classic-background-color);
 }
 .pic {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
 }
 
 .button-all {
@@ -130,8 +142,8 @@ p {
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: center;
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--primary-white-color);
+  background-color: var(--brand-color);
 }
 .button-portfolio {
   border: 1px;
@@ -140,23 +152,24 @@ p {
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: center;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--button-color);
+  background-color: var(--classic-background-color);
 }
 
 /* FOTTER */
 
 .title-footer {
-  color: #f4f4fd;
+  color: var(--classic-background-color);
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase;
 }
 .footer {
-  color: #f4f4fd;
+  color: var(--classic-background-color);
 }
 footer {
-  background-color: #2e2f42;
+  background-color: var(--footer-color);
 }
