@@ -48,15 +48,16 @@ body {
   color: var(--footer-color);
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+  list-style: none;
 }
-.link:hover {
+.list:hover {
   color: var(--brand-color);
   text-decoration: underline;
 }
-.link:active {
+.list:active {
     color: var(--brand-color);
     text-decoration: underline;
   }
