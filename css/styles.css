@@ -55,13 +55,15 @@ body {
   color: var(--brand-color);
 }
 .list {
+  list-style: none;
+}
+.list-s {
   color: var(--footer-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-  list-style: none;
 }
 .list:hover {
   color: var(--brand-color);
