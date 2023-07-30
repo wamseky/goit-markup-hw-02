@@ -160,25 +160,25 @@ body {
   background-color: var(--primary-white-color);
 }
 
-.button-all {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: var(--primary-white-color);
-  background-color: var(--brand-color);
-}
 .button-portfolio {
   border: 1px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: var(--button-color);
   background-color: var(--classic-background-color);
+  cursor: pointer;
 }
+.button-portfolio:hover {
+  color: var(--primary-white-color);
+  background-color: var(--brand-color);
+  }
+  .button-portfolio:focus {
+    color: var(--primary-white-color);
+    background-color: var(--brand-color);
+  }
 
 /* FOTTER */
 
