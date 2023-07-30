@@ -28,7 +28,7 @@ body {
 }
 .link-a {
   font-family: var(--title-font);
-  color: var(--footer-color);
+  color: var(--button-color);
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.03em;
