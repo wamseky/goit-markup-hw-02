@@ -10,11 +10,11 @@
 }
 
 a {
-  list-style-type: none;
+  list-style: none;
   text-decoration: none;
 }
 ul {
-  list-style-type: none;
+  list-style: none;
   text-decoration: none;
 }
 body {
@@ -25,11 +25,9 @@ body {
 /* HEADER */
 
 .list {
-  list-style-type: none;
-  text-decoration: none;
+  list-style: none;
 }
 .link {
-  list-style-type: none;
   text-decoration: none;
 }
 .link-a {
@@ -50,12 +48,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
-  text-transform: uppercase;
 }
 
 .link-a:hover {
   color: var(--brand-color);
-  text-decoration: underline;
 }
 .link-a:focus {
   color: var(--brand-color);
