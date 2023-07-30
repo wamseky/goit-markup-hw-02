@@ -78,8 +78,13 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  font-style: normal;
+  list-style: none;
 }
 .contacts:hover {
+  color: var(--brand-color);
+}
+.contacts:focus {
   color: var(--brand-color);
 }
 .contacts:active {
