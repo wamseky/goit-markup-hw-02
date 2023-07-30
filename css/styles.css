@@ -24,8 +24,11 @@ body {
 /* HEADER */
 
 .link {
+  text-decoration: none;
+}
+.link-a {
   font-family: var(--title-font);
-  color: var(--button-color);
+  color: var(--footer-color);
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.03em;
@@ -44,6 +47,13 @@ body {
   text-transform: uppercase;
 }
 
+.link-a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+.link-a:focus {
+  color: var(--brand-color);
+}
 .list {
   color: var(--footer-color);
   font-size: 16px;
@@ -56,6 +66,9 @@ body {
 .list:hover {
   color: var(--brand-color);
   text-decoration: underline;
+}
+.list:focus {
+  color: var(--brand-color);
 }
 .list:active {
     color: var(--brand-color);
@@ -121,16 +134,16 @@ body {
 .button-index:focus {
   background-color: var(--brand-color);
 }
-.title-h3 {
+.title-h {
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
+  color: var(--footer-color);
 }
 .caption {
   color: var(--footer-color);
-  letter-spacing: 0.02em;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
