@@ -1,14 +1,12 @@
-:root {
-  --brand-color: #404bbf;
-  --primary-white-color: #ffffff;
-  --body-color: #434455;
-  --classic-background-color: #f4f4fd;
-  --footer-color: #2e2f42;
-  --button-color: #4d5ae5;
-  --primary-font: "Roboto", sans-serif;
-  --title-font: "Raleway", sans-serif;
-}
 body {
+    --brand-color: #404bbf;
+    --primary-white-color: #ffffff;
+    --body-color: #434455;
+    --classic-background-color: #f4f4fd;
+    --footer-color: #2e2f42;
+    --button-color: #4d5ae5;
+    --primary-font: "Roboto", sans-serif;
+    --title-font: "Raleway", sans-serif;
   color: var(--body-color);
   background-color: var(--primary-white-color);
   font-family: var(--primary-font);
