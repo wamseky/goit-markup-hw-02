@@ -9,6 +9,14 @@
     --title-font: "Raleway", sans-serif;
 }
 
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
 body {
   color: var(--body-color);
   background-color: var(--primary-white-color);
@@ -16,6 +24,10 @@ body {
 }
 /* HEADER */
 
+.list {
+  list-style-type: none;
+  text-decoration: none;
+}
 .link {
   list-style-type: none;
   text-decoration: none;
@@ -48,10 +60,7 @@ body {
 .link-a:focus {
   color: var(--brand-color);
 }
-.list {
-  list-style-type: none;
-  text-decoration: none;
-}
+
 .list-s {
   color: var(--footer-color);
   font-size: 16px;
