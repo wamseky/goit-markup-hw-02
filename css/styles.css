@@ -170,6 +170,7 @@ body {
   color: var(--button-color);
   background-color: var(--classic-background-color);
   cursor: pointer;
+  font-family: var(--primary-font);
 }
 .button-portfolio:hover {
   color: var(--primary-white-color);
