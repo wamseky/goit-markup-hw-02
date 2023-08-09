@@ -5,10 +5,10 @@
   --classic-background-color: #f4f4fd;
   --footer-color: #2e2f42;
   --button-color: #4d5ae5;
+  --primary-font: "Roboto", sans-serif;
+  --title-font: "Raleway", sans-serif;
 }
 body {
-    --primary-font: "Roboto", sans-serif;
-    --title-font: "Raleway", sans-serif;
   color: var(--body-color);
   background-color: var(--primary-white-color);
   font-family: var(--primary-font);
@@ -21,7 +21,7 @@ body {
 .link {
   text-decoration: none;
 }
-.link-a {
+.link-header-logo {
   font-family: var(--title-font);
   color: var(--button-color);
   font-size: 18px;
@@ -31,38 +31,32 @@ body {
   text-transform: uppercase;
 }
 
-.link-s {
+.link-header {
   color: var(--footer-color);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
-.link-a:hover {
+.link-header-logo:hover {
   color: var(--brand-color);
 }
-.link-a:focus {
+.link-header-logo:focus {
   color: var(--brand-color);
 }
 
-.list-s {
+.list-header {
   color: var(--footer-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.list-s:hover {
-  color: var(--brand-color);
-  text-decoration: underline;
-}
-.list-s:focus {
+.list-header:hover {
   color: var(--brand-color);
 }
-.list-s:active {
+.list-header:focus {
+  color: var(--brand-color);
+}
+.list-header:active {
     color: var(--brand-color);
-    text-decoration: underline;
   }
 .contacts {
   color: var(--body-color);
@@ -75,7 +69,6 @@ body {
 .contacts-num {
     color: var(--body-color);
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   font-style: normal;
